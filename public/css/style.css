@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&display=swap');
+
+:root {
+    --main-bg-color: #18010B;
+    --second-bg-color: #FAFAFA;
+    --third-bg-color: #000000;
+}
+
+html,body {
+    font-family: 'Titillium Web', sans-serif;
+    height: 100vh;
+    background: var(--main-bg-color);
+    background: radial-gradient(circle, var(--main-bg-color) 0%, var(--third-bg-color) 100%);
+    margin: 0;
+    color: var(--second-bg-color);
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------------------------------------------------------------
+                                       HEADER
+-------------------------------------------------------------------------------------*/
+
+header{
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a img{
+    height: 60px;
+    margin: 0 20px;
+}
+
+header nav a{
+    display: flex;
+    align-items: center;
+}
+
+header nav a h1{
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+header nav ul{
+    display: flex;
+    margin: 0;
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    font-size: 18px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+#body{
+    width: 100%;
+    height: 100vh;
+    min-width: 850px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*-------------------------------------------------------------------------------------
+                                      FOOTER
+-------------------------------------------------------------------------------------*/
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    margin: 20px;
+}
+
+footer ul li a{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 0 10px;
+}
+
+footer ul li a img{
+    width: 20px;
+}
+
+
